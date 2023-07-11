@@ -395,6 +395,12 @@ p {
     margin-right: 2rem;
     font-size: 1rem;
   }
+  .flex-one {
+    margin-left: 4rem;
+  }
+  .flex-two {
+    margin-right: 4rem;
+  }
 }
 @media only screen and (min-width: 600px) and (max-width:1400px) {
   .gridbox {    
