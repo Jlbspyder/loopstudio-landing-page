@@ -381,6 +381,9 @@ p {
     min-width: 450px;
     min-height: 100px;
   }
+  .container {
+    min-width: 1050px;
+  }
   .header-content h1 {
     font-size: 3.5rem;
   }
@@ -405,6 +408,10 @@ p {
   }
   .create {
     width: 90%;
+  }
+   #footer {
+    min-height: 100px;
+    min-width: 1050px;
   }
 }
 @media (min-width: 1400px) {
