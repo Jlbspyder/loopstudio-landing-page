@@ -65,7 +65,7 @@ nav {
 .logo {
   width: 200px;
   height: 40px;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
 }
 .hamburger {
   height: 30px;
