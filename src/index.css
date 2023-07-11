@@ -371,7 +371,7 @@ p {
 @media only screen and (min-width: 600px) and (max-width:1400px) {
   .gridbox {    
     display: grid;
-    grid-template-columns: repeat(4, 300px); 
+    grid-template-columns: repeat(4, 268px); 
   }
   .content {
     position: absolute;
