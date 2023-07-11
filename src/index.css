@@ -65,6 +65,7 @@ nav {
 .logo {
   width: 200px;
   height: 40px;
+  margin-left: 1rem;
 }
 .hamburger {
   height: 30px;
@@ -139,8 +140,9 @@ p {
   width: 50%;
   font-size: 1.5rem;
   font-weight: bold;
+  color: var(--Black);
   letter-spacing: 0.2rem;
-  border: 2px solid var(--VeryDarkGray);
+  border: 2px solid var(--Black);
   background: transparent;
 }
 .mobile-btn:hover {
