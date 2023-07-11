@@ -242,8 +242,11 @@ p {
     display: none;
   }
   .header-content {
-    width: 45%;
+    width: 40%;
     margin-left: 4rem;
+  }
+  .header-content h1{
+    margin-top: 1rem;
   }
   .logo {
     margin-left: 7rem;
