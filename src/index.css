@@ -420,7 +420,7 @@ p {
   }
    #footer {
     min-height: 100px;
-    min-width: 1050px;
+    width: 100%;
   }
 }
 @media (min-width: 1400px) {
