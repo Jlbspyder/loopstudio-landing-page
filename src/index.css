@@ -243,7 +243,7 @@ p {
   .desktop-menu {
     display: block;
     display: flex;
-    margin: 0.5rem 5rem 0 0;
+    margin: 0.5rem 7rem 0 0;
   }
   li {
     height: 1.8rem;
@@ -267,8 +267,8 @@ p {
     margin-top: 1rem;
     padding-left: 2rem;
   }
-  .logo {
-    margin-left: 7rem;
+  .nav .logo {
+    margin-left: 9rem;
   }
   .interact {
     padding: 2rem;
