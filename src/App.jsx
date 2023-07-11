@@ -12,7 +12,7 @@ function App() {
   }
   return (
     <div className='container'>
-        <Hero open={handleOpen} />
+      {!open && <Hero open={handleOpen} />}
         {open && <MobileMenu open={handleOpen}/>}
     </div>
   )
