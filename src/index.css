@@ -65,7 +65,6 @@ nav {
 .logo {
   width: 200px;
   height: 40px;
-  margin-left: 1rem;
 }
 .hamburger {
   height: 30px;
@@ -74,7 +73,7 @@ nav {
 .close {
   height: 30px;
   width: 30px;
-  margin-left: 1rem;
+  margin-left: -1rem;
 }
 .header-content {
   position: absolute;
@@ -194,7 +193,7 @@ p {
   align-items: flex-start;
   background: var(--Black);
   color: var(--White);
-  min-width: 400px;
+  min-width: 425px;
   min-height: 1100px;
 }
 .mobile-menu {
