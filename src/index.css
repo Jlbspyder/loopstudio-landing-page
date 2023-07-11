@@ -195,9 +195,11 @@ p {
   background: var(--Black);
   color: var(--White);
   min-width: 425px;
+  animation: slideFromTop 0.5s ease-in-out;
 }
 .gridbox img:hover, .title:hover {
   opacity: 0.5;
+  transition: all 0.3s ease-in-out;
 }
 .mobile-menu {
   margin: 1rem 0 0 1rem;
@@ -217,6 +219,14 @@ p {
 }
 .mobile-menu-list {
   margin-bottom: 20rem ;
+}
+@keyframes slideFromTop {
+  0% {
+   transform: translateY(-100%);
+  }
+  100% {
+   transform: translateY(0%);
+  }
 }
 @media only screen and (min-width: 600px) {
   .container {
@@ -263,6 +273,7 @@ p {
   }
   .gridbox img:hover, .title:hover {
     opacity: 0.5;
+    transition: all 0.3s ease-in-out;
   }
   #interactive {
   position: relative;
@@ -370,6 +381,7 @@ p {
   .socials a:hover {
     border-bottom: 2px solid var(--White);
     color: var(--White);
+    transition: all 0.3s ease-in-out;
   }
   .rights {
     margin-right: 2rem;
