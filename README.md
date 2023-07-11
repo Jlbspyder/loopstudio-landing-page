@@ -13,7 +13,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://jlb-loopstudio-landing-page.netlify.app/](https://jlb-loopstudio-landing-page.netlify.app/)
 
 
 ### Built with
