@@ -17,6 +17,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+p {
+  font-size: 15px;
+  font-family: 'Alata', sans-serif;
+  color: var(--DarkGray);
+}
 a {
   font-weight: 500;
   font-size: 1rem;
