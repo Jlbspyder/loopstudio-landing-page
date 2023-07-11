@@ -388,7 +388,7 @@ p {
     font-size: 1rem;
   }
 }
-@media only screen and (min-width: 600px) and (max-width:1400px) {
+@media only screen and (min-width: 600px) and (max-width:1250px) {
   .gridbox {    
     display: grid;
      grid-template-columns: repeat(4, 1fr);
@@ -435,7 +435,7 @@ p {
     width: 100%;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1250px) {
   .container {
     min-width: 2100px;
   }
