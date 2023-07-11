@@ -188,13 +188,13 @@ p {
 .mobile-menu-bg {
   position: absolute;
   top: 0;
+  bottom: 0;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  gap: 10rem;
   background: var(--Black);
   color: var(--White);
   min-width: 425px;
-  min-height: 1100px;
 }
 .gridbox img:hover, .title:hover {
   opacity: 0.5;
