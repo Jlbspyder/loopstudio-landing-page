@@ -97,7 +97,7 @@ const Hero = ({ open }) => {
             <div className="box" key={item.id}>
               <picture>
                 <source
-                  media="(min-width: 600px)"
+                  media="(min-width: 850px)"
                   srcSet={item.desktopImg}
                   className="desktop-img"
                 />
