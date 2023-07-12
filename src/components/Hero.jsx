@@ -14,7 +14,7 @@ const Hero = ({ open }) => {
           <div className="hero-img">
             <picture>
               <source
-                media="(min-width: 850px)"
+                media="(min-width: 600px)"
                 srcSet="./desktop/image-hero.jpg"
                 className="desktop-hero"
               />
