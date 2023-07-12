@@ -197,12 +197,13 @@ p {
   position: absolute;
   top: 0;
   bottom: 0;
+  left: 0;
   display: flex;
   flex-direction: column;
   gap: 10rem;
   background: var(--Black);
   color: var(--White);
-  min-width: 425px;
+  width: 100%;
   animation: slideFromTop 0.5s ease-in-out;
 }
 .gridbox img:hover, .title:hover {
@@ -236,7 +237,101 @@ p {
    transform: translateY(0%);
   }
 }
-@media only screen and (min-width: 600px) {
+
+@media only screen and (min-width: 760px) and (max-width: 920px) {
+  .desktop-menu {
+    display: none;
+  }
+  nav {
+    left: 5%;
+    width: 90%;
+  }
+  #interactive {
+    min-height: 1250px;
+  }
+  .lead {
+    margin-top: 4rem;
+    min-height: 40%;
+  }
+  .interact {
+    padding: 3rem;
+    height: 50%;
+  }
+  #interactive .content {
+    position: static;
+    margin: 2rem 0 0 0;
+    padding: 2rem;
+  }
+  #interactive .content h1 {
+    font-size: 3rem;
+    padding: 0 1.5rem 0 1.5rem;
+    text-align: center;
+  }
+  #interactive .content p {
+    padding: 2rem;
+    font-size: 2.3rem;
+    text-align: center;
+  }
+  #creations {
+    margin-top: 3rem;
+  }
+  #creations h1 {
+    padding: 1.8rem;
+    font-size: 4.5rem;
+    text-align: center;
+  }
+  #creations .gridbox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+  }
+  #logo .logo {
+    margin-top: 1rem;
+    width: 380px;
+    height: 80px;
+  } 
+  .menu {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  .menu_ a {
+    font-size: 2.5rem;
+  }
+  .socials {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  .socials a {
+    margin-left: 2rem;
+    font-size: 2.5rem;
+  }
+  .socials a:hover {
+    color: var(--DarkGray);
+  }
+  .rights {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    color: var(--DarkGray);
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  .mobile-menu-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    background: var(--Black);
+    color: var(--White);
+    min-width: 425px;
+    animation: slideFromRight 0.5s ease-in-out;
+  }
+  .attribution { 
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (min-width: 920px) {
   .container {
     min-width: 920px;
   }
@@ -260,12 +355,12 @@ p {
     display: none;
   }
   .header-content {
-    width: 42%;
+    width: 44%;
     margin-left: 6rem;
   }
   .header-content h1{
     margin-top: 1rem;
-    padding-left: 2rem;
+    padding-left: 1rem;
   }
   .nav .logo {
     margin-left: 9rem;
@@ -319,6 +414,7 @@ p {
   }
   h1 {
     margin-top: 3rem;
+    font-size: 4rem;
   }
   .mobile-btn {
     display: none;
@@ -416,9 +512,6 @@ p {
     min-width: 450px;
     min-height: 100px;
   }
-  .container {
-    min-width: 1050px;
-  }
   .header-content h1 {
     font-size: 3.5rem;
   }
@@ -451,12 +544,9 @@ p {
   }
 }
 @media (min-width: 1400px) {
-  .container {
-    min-width: 2100px;
-  }
   .gridbox {
     display: grid;
-     grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     width: 100%;
   }
   .create {
@@ -472,13 +562,13 @@ p {
     position: absolute;
     right: 10%;
     top: 55%;
-    min-width: 800px;
+    min-width: 680px;
   }
   .content h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   .content p {
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
   .title {
     font-size: 2.5rem;
