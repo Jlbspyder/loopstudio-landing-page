@@ -5,10 +5,8 @@ import MobileMenu from './components/MobileMenu'
 
 function App() {
   const [open, setOpen] = useState(false)
-  const [isOpen, setIsOpen] = useState(false)
   const handleOpen = () => {
     setOpen((prev) => !prev)
-    setIsOpen((prev) => !prev)
   }
   return (
     <div className='container'>
