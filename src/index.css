@@ -160,7 +160,7 @@ p {
 }
 #footer {
   background-color: var(--Black);
-  min-height: 500px;
+  min-height: 430px;
   display: flex;
   margin-top: 5rem;
   flex-direction: column;
@@ -275,12 +275,24 @@ p {
     text-align: center;
   }
   #creations {
-    margin-top: 3rem;
+    margin-top: 0;
   }
   #creations h1 {
     padding: 1.8rem;
     font-size: 4.5rem;
     text-align: center;
+  }
+   #creations .title {
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    width: 25%;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: var(--White);
+  }
+  #creations .small {
+    width: 18%;
   }
   #creations .gridbox {
     display: grid;
@@ -334,9 +346,6 @@ p {
 }
 
 @media only screen and (min-width: 970px) {
-  .container {
-    min-width: 920px;
-  }
   .desktop-menu {
     display: block;
     display: flex;
