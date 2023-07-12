@@ -177,7 +177,7 @@ p {
   color: var(--DarkGray);
 }
 .socials {
-  margin-top: 2rem;
+  margin: 2rem 2rem 0 0;
   text-align: center;
 }
 .socials a {
