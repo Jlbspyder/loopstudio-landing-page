@@ -324,7 +324,7 @@ p {
     background: var(--Black);
     color: var(--White);
     min-width: 425px;
-    animation: slideFromRight 0.5s ease-in-out;
+    animation: slideFromTop 0.5s ease-in-out;
   }
   .attribution { 
     margin-left: 5%;
