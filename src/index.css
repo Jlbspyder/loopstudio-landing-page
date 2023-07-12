@@ -246,6 +246,9 @@ p {
     left: 5%;
     width: 90%;
   }
+  .close {
+    margin-right: 2rem;
+  }
   #interactive {
     min-height: 1250px;
   }
