@@ -213,7 +213,7 @@ p {
 .mobile-menu {
   margin: 1rem 0 0 1rem;
   display: flex;
-  gap: 10rem;
+  justify-content: space-between;
 }
 .mobile-menu-list li {
   text-transform: uppercase;
