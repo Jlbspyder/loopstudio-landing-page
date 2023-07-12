@@ -14,7 +14,7 @@ const Hero = ({ open }) => {
           <div className="hero-img">
             <picture>
               <source
-                media="(min-width: 768px)"
+                media="(min-width: 850px)"
                 srcSet="./desktop/image-hero.jpg"
                 className="desktop-hero"
               />
@@ -66,7 +66,7 @@ const Hero = ({ open }) => {
         <div className="lead">
           <picture>
             <source
-              media="(min-width: 768px)"
+              media="(min-width: 850px)"
               srcSet="./desktop/image-interactive.jpg"
               className="desktop-interactive"
             />
